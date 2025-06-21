@@ -78,5 +78,3 @@ If you find any issues with the website or have suggestions for improvement, ple
 Thank you for using Kodex!
 
 If you have any feedback, please reach out to me at anandshreyansh24@gmail.com
-
-s
