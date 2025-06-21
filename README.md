@@ -1,8 +1,13 @@
-<h1 align="center">✨ SaaS Code Editor - Next.js 15 ✨</h1>
+<h1 align="center">✨ Kodex - Real Time Code Editor ✨</h1>
 
-![Demo App](/public/screenshot-for-readme.png)
+Kodex is a cutting-edge collaborative coding platform that bridges developers worldwide, combining real-time code editing. It enables seamless pair programming, instant execution, and knowledge sharing in a unified digital workspace across many languages.
 
-[Watch Full Tutorial on Youtube](https://youtu.be/fGkRQgf6Scw)
+## Screenshots
+
+![App Screenshot](/public/screenshot-for-readme.png)
+
+
+## Features
 
 Highlights:
 
@@ -19,24 +24,58 @@ Highlights:
 - 🔗 Webhook integration support
 - 🌟 Professional deployment walkthrough
 
-### Setup .env file
+## Tech Stack
 
-```js
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-CONVEX_DEPLOYMENT=
-NEXT_PUBLIC_CONVEX_URL=
+**Client:**  Next.js, TypeScript, TailwindCSS, Clerk, Zustand, Monaco Editor
+
+**Server:** Node.js, Clerk webhooks, Piston API, Convex
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`CLERK_PUBLISHABLE_KEY=your_clerk_key`
+
+`CLERK_SECRET_KEY=your_clerk_secret_key`
+
+`CONVEX_DEPLOYMENT=your_convex_deployment`
+
+`NEXT_PUBLIC_CONVEX_URL=your_convex_deployment_url`
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/xurde24/Kodex.git
 ```
 
-### Add these env to Convex Dashboard
+Go to the project directory
 
-```js
-CLERK_WEBHOOK_SECRET=
-LEMON_SQUEEZY_WEBHOOK_SECRET=
+```bash
+  cd my-project
 ```
 
-### Run the app
+🔧 Install dependencies
 
-```shell
-npm run dev
+```bash
+  npm install
 ```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+
+## Contributing
+
+If you find any issues with the website or have suggestions for improvement, please feel free to submit a pull request or open an issue in this repository. Your contributions are welcome!
+
+
+## Feedback
+Thank you for using NexusTalk!
+
+If you have any feedback, please reach out to me at anandshreyansh24@gmail.com
+
