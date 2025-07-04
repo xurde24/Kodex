@@ -1,4 +1,4 @@
-<h1 align="center">✨ Kodex - Real Time Code Editor ✨</h1>
+<h1 align="center">✨ Kodex - Full Stack SaaS Code Editor ✨</h1>
 
 Kodex is a cutting-edge collaborative coding platform that bridges developers worldwide, combining real-time code editing. It enables seamless pair programming, instant execution, and knowledge sharing in a unified digital workspace across many languages.
 
