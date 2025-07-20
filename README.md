@@ -11,7 +11,7 @@ Kodex is a cutting-edge SaaS coding platform that bridges developers worldwide, 
 
 Highlights:
 
-- 🚀 Tech stack: Next.js 15 + Convex + Clerk + TypeScript
+- 🚀 Tech stack: Next.js 15 + MongoDB + Clerk + TypeScript
 - 💻 Online IDE with multi-language support (10 languages)
 - 🎨 Customizable experience with 5 VSCode themes
 - ✨ Smart output handling with Success & Error states
@@ -28,7 +28,7 @@ Highlights:
 
 **Client:**  Next.js, TypeScript, TailwindCSS, Clerk, Zustand, Monaco Editor
 
-**Server:** Node.js, Clerk webhooks, Piston API, Convex
+**Server:** Node.js, Clerk webhooks, Piston API, MongoDB
 
 ## Environment Variables
 
